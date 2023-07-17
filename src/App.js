@@ -4,8 +4,6 @@ import * as yup from 'yup'
 
 
 
-
-
 const App = () => {
   const formik = useFormik({
     initialValues: {
@@ -51,8 +49,6 @@ const App = () => {
        
 
 
-
-
         <div className="mb-3">
           <label htmlFor="lastName" className="form-label">lastName</label>
           <input type="" className="form-control" id="lastName"
@@ -60,8 +56,6 @@ const App = () => {
             {...formik.getFieldProps('lastName')} />
         </div>
       
-
-
 
 
         <div className="mb-3">
@@ -75,22 +69,8 @@ const App = () => {
 
 
 
-
-
       <button type="submit" className="btn btn-primary">Submit</button>
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
